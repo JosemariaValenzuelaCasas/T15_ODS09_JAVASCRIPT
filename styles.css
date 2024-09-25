@@ -3,6 +3,18 @@
 ::-webkit-scrollbar {
   width: 0;
 }
+
+#leer-mas{
+  width: 160px;
+  height: 50px;
+  background-color: coral;
+  transition: transform 0.3s ease;
+}
+
+#leer-mas.expandido {
+  transform: scale(1.2); 
+}
+
 section {
     margin: 40px 0;
     padding: 20px;

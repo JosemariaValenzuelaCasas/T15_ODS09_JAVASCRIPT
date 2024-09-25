@@ -8,11 +8,15 @@
   width: 160px;
   height: 50px;
   background-color: coral;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 #leer-mas.expandido {
   transform: scale(1.2); 
+}
+
+#leer-mas:hover {
+  background-color: rgb(190, 70, 0); /* Cambia el color al hacer hover */
 }
 
 section {
